@@ -131,3 +131,56 @@ body {
     text-align:  center;
     width: 200px;
 }
+
+.three {
+   background-color: #E5E7Eb;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 20px 50px 20px 50px;
+    
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px 20px 100px;
+}
+
+.blue-box {
+   background-color: #3882f6;
+   border: solid 1px #3882f6;
+   border-radius:5px;
+   flex: 1;
+   display: flex;
+}
+
+.text-blue{
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+.call {
+    font-size: 18px ;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.sub-call {
+    margin: 0px;
+}
+
+.button-blue button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
