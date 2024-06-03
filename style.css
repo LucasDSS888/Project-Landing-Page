@@ -62,15 +62,16 @@ body {
 
 .box {
     flex-basis: 215px;
+    max-height: 215px;
     border: solid 1px red;
     display: flex;
-    flex: 1;
-
+    flex:1;
 }
 
 .box .one {
     display: flex;
     flex-direction: column;
+    background-color:#1f2937
     /* background-color: blue; */
 }
 
@@ -79,17 +80,25 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color:#1f2937;;
+    background-color:#1f2937;
     color: #e5e7eb;
     width: 200px;
 
 }
 
 .one .child-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
-    color: #e5e7eb;
+    color: red;
     flex: 1;
     width: 200px;
+}
+
+.placeholder{
+    background-color: #E5E7Eb;
+    padding: 50px;
 }
 
 .two {
@@ -135,8 +144,8 @@ body {
 .three {
    background-color: #E5E7Eb;
    display: flex;
-   align-items: center;
-   justify-content: center;
+   flex-direction: column;
+
   
 }
 
@@ -146,8 +155,31 @@ body {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    padding: 20px 50px 20px 50px;
+    margin: 0px;
+    padding: 0px;
+   
     
+}
+
+.quote p {
+    flex: 1;
+    
+    margin: 30px 40px 0px 40px;
+}
+
+.sub-quote {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    
+    margin-right: 80px;
+}
+
+.sub-quote p {
+    margin: 0px;
+    font-weight: bold;
 }
 
 .four{
