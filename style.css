@@ -186,33 +186,57 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 100px 20px 100px;
 }
 
 .blue-box {
    background-color: #3882f6;
    border: solid 1px #3882f6;
-   border-radius:5px;
+   border-radius:10px;
    flex: 1;
    display: flex;
+   justify-content: space-around;
+   margin-left: 75px;
+   margin-right: 75px;
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
 
 .text-blue{
     color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    margin-left: 80px;
+    flex-grow: 2;
 }
 .call {
     font-size: 18px ;
     font-weight: bold;
     margin: 0px;
+    margin-bottom: 20px;
 }
 
 .sub-call {
     margin: 0px;
 }
 
-.button-blue button{
+.button-blue {
+    flex: 1;
+    display: flex;
     background-color: #3882f6;
     color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-blue button {
+    background-color: #3882f6;
+    border: solid;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    border-radius:10px;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    
 }
