@@ -3,7 +3,7 @@
 } */
 
 body {
-    height: 100vh;
+    height: 185vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,9 +16,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px;
+    padding: 30px 200px 0px 200px;
     /* border: solid 1px red; */
 }
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo h2 {
+    margin: 0px;
+}
+
 .links {
     display: flex;
     list-style: none;
@@ -61,20 +71,30 @@ body {
 }
 
 .box {
-    flex-basis: 215px;
-    max-height: 215px;
-    border: solid 1px red;
+
     display: flex;
     flex:1;
 }
 
-.box .one {
+.one {
     display: flex;
     flex-direction: column;
-    background-color:#1f2937
+    background-color:#1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    
     /* background-color: blue; */
 }
 
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    gap: 20px;
+}
 
 .one .child-one {
     display: flex;
@@ -82,8 +102,25 @@ body {
     flex: 1;
     background-color:#1f2937;
     color: #e5e7eb;
-    width: 200px;
+    height: 300px;
+    
+}
 
+.one .child-one h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+
+.one .child-one p {
+    margin: 0px;
+}
+
+.one .child-one button {
+    background-color: #3882f6;
+    border: solid #3882f6;
+    border-radius: 10px;
+    margin-right: 250px;
+    color: #F9FAF8;
 }
 
 .one .child-two {
@@ -91,14 +128,20 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    color: red;
+    color: #E5E7EB;
     flex: 1;
-    width: 200px;
+    
 }
 
 .placeholder{
-    background-color: #E5E7Eb;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3b6b9cb;
     padding: 50px;
+    height: 200px;
+    
 }
 
 .two {
