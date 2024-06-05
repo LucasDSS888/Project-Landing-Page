@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 200px 0px 200px;
+    padding: 30px 300px 0px 300px;
     /* border: solid 1px red; */
 }
 
@@ -80,8 +80,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color:#1f2937;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
 
     
     /* background-color: blue; */
@@ -99,10 +99,10 @@ body {
 .one .child-one {
     display: flex;
     flex-direction: column;
-    flex: 1;
     background-color:#1f2937;
     color: #e5e7eb;
     height: 300px;
+    width: 400px;
     
 }
 
@@ -134,13 +134,12 @@ body {
 }
 
 .placeholder{
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #b3b6b9cb;
-    padding: 50px;
-    height: 200px;
+    height: 225px;
+    width: 425px;
     
 }
 
@@ -155,39 +154,49 @@ body {
     text-align: center;
 }
 
+.two .child-one h2 {
+    font-size: 36px;
+}
+
 .two .child-two {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
 .info{
     display: flex;
-    flex: 1;
-    max-width: 150px;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
+    flex: 1;
+    max-width: 150px;
+    
 }
 
 .card {
     display: flex;
-    border: solid 3px #3882f6;
-    padding: 50px;
-    max-width: 200px;
+    flex: 1;
+    border: solid 4px #3882f6;
+    min-height: 144px;
     border-radius:10px;
+    align-self: stretch;
     
 
     
 }
 
 .text {
-    text-align:  center;
-    width: 200px;
+    text-align: left ;
+    flex: 1;
 }
 
 .three {
    background-color: #E5E7Eb;
    display: flex;
    flex-direction: column;
+   padding-left: 450px;
+   padding-right: 450px;
 
   
 }
@@ -198,20 +207,23 @@ body {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px;
+    padding: 0px; */
    
     
 }
 
 .quote p {
     flex: 1;
+    padding-top: 100px;
+    margin-bottom: 0px;
     
-    margin: 30px 40px 0px 40px;
+    /* margin: 30px 40px 0px 40px; */
 }
 
 .sub-quote {
     display: flex;
+    max-height: 100px;
     justify-content: flex-end;
     flex: 1;
     margin: 0;
@@ -223,12 +235,17 @@ body {
 .sub-quote p {
     margin: 0px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .four{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin: 0px;
+    max-height: 300px;
 }
 
 .blue-box {
